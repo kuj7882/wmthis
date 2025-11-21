@@ -1,0 +1,26 @@
+/* 필요한 다른 굵기 및 스타일의 글꼴도 추가 */
+html,
+body,
+.v-application__wrap {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.v-application__wrap {
+  min-height: 100vh; /* 뷰포트 높이를 최소 높이로 설정 */
+  background-color: #F5EFEB;
+}
+a {
+  text-decoration: none;
+  /* 밑줄 제거 */
+  color: inherit;
+  /* 부모 요소의 색상 상속 */
+  cursor: pointer;
+  /* 마우스 커서 설정 */
+}
+
+a:hover {
+  text-decoration: none;
+  /* 호버 시 밑줄 제거 (필요에 따라) */
+}
